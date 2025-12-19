@@ -2,11 +2,234 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HTML5 Boilerplate</title>
+    <title>DonerSMP.top</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=IBM+Plex+Mono:wght@500;600&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <meta name="description" content="DonerSMP.top is a semi-vanilla Minecraft SMP with QoL features, custom systems, and an active community. Join on Java or Bedrock today.">
+    <meta name="keywords" content="DonerSMP, Minecraft SMP, semi-vanilla, Java server, Bedrock server, Minecraft survival, custom enchantments, economy">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://donersmp.top/">
+
+    <meta property="og:title" content="DonerSMP.top - Semi-Vanilla Minecraft SMP">
+    <meta property="og:description" content="QoL survival, custom systems, and a community that plays together. Join on Java or Bedrock.">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="DonerSMP.top">
+    <meta property="og:url" content="https://donersmp.top/">
+    <meta property="og:image" content="https://donersmp.top/logo.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@DonerSMP">
+    <meta name="twitter:title" content="DonerSMP.top - Semi-Vanilla Minecraft SMP">
+    <meta name="twitter:description" content="QoL survival, custom systems, and a community that plays together.">
+    <meta name="twitter:image" content="https://donersmp.top/logo.png">
+
+    <meta name="theme-color" content="#0b0f14">
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "GameServer",
+      "name": "DonerSMP",
+      "url": "https://donersmp.top/",
+      "description": "Semi-vanilla Minecraft SMP with QoL features, custom systems, and an active community.",
+      "game": "Minecraft",
+      "serverStatus": "Live",
+      "serverAddress": "DonerSMP.top",
+      "sameAs": [
+        "https://store.donersmp.top/"
+      ]
+    }
+    </script>
 </head>
 <body>
-    <h1>Hello world, hello QuickRef.ME!</h1>
+
+<div class="bg-glow"></div>
+
+<header class="topbar">
+    <div class="brand">
+        <img class="brand-logo" src="logo.png" alt="DonerSMP logo">
+        <span class="brand-name">DonerSMP.top</span>
+    </div>
+    <nav class="nav">
+        <a href="#features">Features</a>
+        <a href="https://store.donersmp.top" target="_blank" rel="noopener">Store</a>
+        <a href="#join">Join</a>
+    </nav>
+    <button class="ghost" data-copy onclick="copyIP()">Copy IP</button>
+</header>
+
+<main>
+    <section class="hero">
+        <div class="hero-content">
+            <span class="tag">SEMI-VANILLA SMP</span>
+            <h1>DonerSMP.top</h1>
+            <p class="lead">
+                Semi-vanilla survival with QoL, a solid economy, and a community that plays together.
+            </p>
+            <div class="hero-actions">
+                <button class="primary" data-copy onclick="copyIP()">Copy IP</button>
+                <a class="secondary" href="#features">Explore features</a>
+            </div>
+            <div class="meta-row">
+                <div class="meta-card">
+                <span class="label">Server IP</span>
+                <div class="ip-stack">
+                    <div>Java: <code>DonerSMP.top</code></div>
+                    <div>Bedrock: <code>bedrock.donersmp.top</code></div>
+                    <div class="ip-port">Port: 25589</div>
+                </div>
+            </div>
+                <div class="meta-card">
+                    <span class="label">Live status</span>
+                    <span class="stats" id="stats">500+ Discord members - loading players</span>
+                </div>
+            </div>
+        </div>
+        <div class="hero-panel">
+            <div class="panel-card">
+                <h3>What you get</h3>
+                <ul>
+                    <li>QoL tweaks that keep survival smooth</li>
+                    <li>Helpful staff and clean moderation</li>
+                    <li>Player-driven economy</li>
+                </ul>
+            </div>
+            <div class="panel-card accent">
+                <h3>Play your way</h3>
+                <p>
+                    Builders, PvPers, grinders, base hunters - everyone gets
+                    room to grow without pressure.
+                </p>
+                <div class="chip-row">
+                    <span class="chip">Events</span>
+                    <span class="chip">Teams</span>
+                    <span class="chip">Quests</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="features" class="features">
+        <h2>Why play on DonerSMP?</h2>
+        <div class="feature-grid">
+            <article class="feature-card reveal">
+                <h3>Quality-of-life features</h3>
+                <p>
+                    Small improvements across the server that make Minecraft feel smoother and
+                    more enjoyable without changing its core gameplay.
+                </p>
+            </article>
+            <article class="feature-card reveal">
+                <h3>Semi-Vanilla, expanded</h3>
+                <p>
+                    Over 90 custom enchantments and systems that enhance survival while keeping
+                    the experience grounded, familiar, and balanced.
+                </p>
+            </article>
+            <article class="feature-card reveal">
+                <h3>Play your way</h3>
+                <p>
+                    Builder, PvPer, base hunter, grinder -- every playstyle has room to thrive
+                    and progress on the server.
+                </p>
+            </article>
+            <article class="feature-card reveal">
+                <h3>Advanced anticheat</h3>
+                <p>
+                    Modern anticheat systems that are actively maintained to keep hackers from
+                    ruining your progress or gameplay.
+                </p>
+            </article>
+            <article class="feature-card reveal">
+                <h3>Player-run economy</h3>
+                <p>
+                    A fully player-driven economy where the best money-making methods evolve
+                    over time, keeping things fresh and non-repetitive.
+                </p>
+            </article>
+            <article class="feature-card reveal">
+                <h3>Active & reliable staff</h3>
+                <p>
+                    A hands-on staff team that actually responds, helps players, and keeps the
+                    server running smoothly -- not just moderating from the sidelines.
+                </p>
+            </article>
+        </div>
+    </section>
+
+    <section id="store" class="store">
+        <div class="store-card">
+            <div class="store-header">
+                <h2>Store</h2>
+                <p>
+                    Optional purchases help keep the server running. We offer ranks and crates
+                    for players who want extra flair and progression boosts. Ask in Discord for the link.
+                </p>
+                <div class="store-actions">
+                    <a class="secondary" href="https://store.donersmp.top" target="_blank" rel="noopener">Visit store</a>
+                </div>
+            </div>
+            <div class="store-grid">
+                <article class="store-item reveal">
+                    <h3>Ranks for flair</h3>
+                    <p>Cosmetics, chat styling, and extras to stand out.</p>
+                </article>
+                <article class="store-item reveal">
+                    <h3>Crates</h3>
+                    <p>Seasonal loot pools with cosmetics, resources, and perks.</p>
+                </article>
+                <article class="store-item reveal">
+                    <h3>Starter bundles</h3>
+                    <p>Solid value packs for new players who want a head start.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section class="trust">
+        <div class="trust-inner">
+            <h2>Community first</h2>
+            <p>
+                Active staff, steady performance, and events that bring people together.
+            </p>
+            <div class="trust-grid">
+                <div class="trust-item reveal">
+                    <h3>Stable performance</h3>
+                    <p>Optimized systems and clean builds keep gameplay smooth.</p>
+                </div>
+                <div class="trust-item reveal">
+                    <h3>Staff presence</h3>
+                    <p>Support that responds, moderates, and keeps the world running.</p>
+                </div>
+                <div class="trust-item reveal">
+                    <h3>Real community</h3>
+                    <p>Events and quests that bring players together.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="join" class="cta">
+        <div class="cta-inner">
+            <h2>Come play.</h2>
+            <p>Log in tonight and meet a community that actually sticks around.</p>
+            <div class="ip-row">
+                <code>DonerSMP.top</code>
+                <button class="primary" data-copy onclick="copyIP()">Copy IP</button>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer>
+    <p>Copyright 2025 DonerSMP - Not affiliated with Mojang or Microsoft</p>
+</footer>
+
+<script src="script.js"></script>
 </body>
 </html>
